@@ -59,29 +59,4 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(2).setText("CALLS");
 
     }
-    boolean appbar=true;
-int tx=0,ty=0;
-    public void processScroll(int dx,int dy){
-        tx+=dx;ty+=dy;
-        System.out.println("ii: "+dx+"; "+dy);
-
-        if(dy>400){
-            hideAppBar();
-        }else{
-            showAppBar();
-        }
-    }
-
-    public void hideAppBar(){
-        if(appbar) {
-            //toolbar.setVisibility(View.GONE);
-            appbar = false;
-        }
-    }
-    public void showAppBar(){
-        if(!appbar){
-            //toolbar.setVisibility(View.VISIBLE);
-            appbar=true;
-        }
-    }
 }

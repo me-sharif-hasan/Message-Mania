@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_bar_primary">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/chat_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentInsetStart="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:menu="@menu/main_menu">
+            <ImageButton
+                android:id="@+id/back_btn"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                app:srcCompat="@drawable/back_arrow"/>
+
+            <include layout="@layout/rounded_image" />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/in_chat_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Sharif Hasan"
+                    android:textStyle="bold"
+                    android:textColor="#B2FAF3"/>
+
+                <TextView
+                    android:id="@+id/in_chat_last_active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="last seen 11 hours ago"
+                    android:textColor="#A0D1CC"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/audio_call"
+                android:layout_gravity="right"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                style="@style/in_chat_btns"
+                app:srcCompat="@drawable/audio_call" />
+            <ImageButton
+                android:id="@+id/video_call"
+                android:layout_gravity="right"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                style="@style/in_chat_btns"
+                app:srcCompat="@drawable/video_cam" />
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+</LinearLayout>

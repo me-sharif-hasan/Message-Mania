@@ -3,17 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/drawable/video_cam.xml" value="0.18888888888888888" />
         <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/layout/activity_chat.xml" value="0.25" />
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/layout/activity_main.xml" value="0.1592920353982301" />
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/layout/chat_row.xml" value="0.22" />
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/layout/fragment_calls.xml" value="0.209375" />
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/layout/fragment_chat.xml" value="0.209375" />
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/layout/fragment_status_fragmnet.xml" value="0.209375" />
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/layout/main_activity_colaps.xml" value="0.209375" />
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/layout/rounded_image.xml" value="0.209375" />
-        <entry key="..\:/Users/iishanto/AndroidStudioProjects/MsgMania/app/src/main/res/menu/main_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

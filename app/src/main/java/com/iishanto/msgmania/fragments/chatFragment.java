@@ -38,18 +38,6 @@ public class chatFragment extends Fragment {
         recyclerView=v.findViewById(R.id.chat_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(new ChatAdapter(Util.getInstance().getContext()));
-
-
-        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
-
-            @Override
-            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
-                super.onScrolled(recyclerView, dx, dy);
-                int[] pos=new int[2];
-                recyclerView.getChildAt(0).getLocationInWindow(pos);
-                mv.processScroll(pos[0],pos[1]);
-            }
-        });
         return v;
     }
 

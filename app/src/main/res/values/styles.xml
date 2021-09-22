@@ -13,4 +13,10 @@
         <item name="backgroundTint">#00FFFFFF</item>
         <item name="android:layout_marginRight">20dp</item>
     </style>
+
+    <style name="in_chat_btns_close">
+        <item name="backgroundTint">#00FFFFFF</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
 </resources>
